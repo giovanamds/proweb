@@ -20,3 +20,11 @@ body {
 .bg-title {
     background-image: linear-gradient(to bottom right, #6c5ce7, #81ecec);
 }
+
+.rodape {
+    background-image: linear-gradient(to bottom right, #6c5ce7, #81ecec);
+}
+
+.mdi-icone {
+    font-size: 3em;
+}
