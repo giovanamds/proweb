@@ -8,23 +8,29 @@ body {
 .text-title {
     font-family: 'akronim', cursive;
     font-size: 8em;
-    color: beige;
+    color: #2c3e50;
 }
 
 .text-subtitle {
     font-family: 'Raleway';
     font-size: 2em;
-    color: beige;
+    color: #2c3e50;
 }
 
 .bg-title {
-    background-image: linear-gradient(to bottom right, #6c5ce7, #81ecec);
+    /*background-image: linear-gradient(to bottom right, #6c5ce7, #81ecec);*/
+    background: url(../img/psic.jpg) center center no-repeat;
+    background-size: cover;
 }
 
 .rodape {
-    background-image: linear-gradient(to bottom right, #6c5ce7, #81ecec);
+    background-color: #a29bfe;
 }
 
 .mdi-icone {
     font-size: 3em;
+}
+
+.menu {
+    background-color: #a29bfe;
 }
