@@ -23,14 +23,14 @@ body {
     background-size: cover;
 }
 
-.rodape {
-    background-color: #a29bfe;
-}
-
-.mdi-icone {
-    font-size: 3em;
-}
-
 .menu {
-    background-color: #a29bfe;
+    background-color: #cf6a87;
+}
+
+.mdi {
+    color: aliceblue;
+}
+
+.bg-footer {
+    background-color: #cf6a87;
 }

@@ -27,36 +27,114 @@
     <!-- Fim da visualização em Smartphone -->
 
     <!-- b-navbar -->
-    <nav class="navbar navbar-expand-lg navbar-dark fixed-top menu">
-        <a class="navbar-brand mdi mdi-brain"></a>
+    <nav class="navbar mdi mdi-heart-multiple-outline navbar-expand-lg navbar-dark mt-5 menu">
+        <a class="navbar-brand d-block d-sm-none" href="index.html">Psicologia</a>
         <button class="navbar-toggler" data-target="#my-nav" data-toggle="collapse" aria-controls="my-nav" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
+            <span class="navbar-toggler-icon text-white"></span>
         </button>
         <div id="my-nav" class="collapse navbar-collapse">
             <ul class="navbar-nav mr-auto">
-                <li class="nav-item active">
-                    <a class="nav-link" href="#"> Consultas <span class="sr-only">(current)</span></a>
+                <li class="nav-item">
+                    <a class="nav-link text-white" href="#"><b> Home</b> </a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Contato</a>
+                    <a class="nav-link text-white" href="#">Agendar</a>
+                </li>
+                <!-- Menu dropdown -->
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle text-white" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"> Consultas</a>
+                    <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                        <a class="dropdown-item" href="#">Valores</a>
+                        <a class="dropdown-item" href="#">Horários</a>
+                    </div>
+                </li>
+                <!-- Fim do menu dropdown -->
+                <li class="nav-item">
+                    <a class="nav-link text-white" href="faleConosco.html">Fale Conosco</a>
                 </li>
             </ul>
         </div>
     </nav>
 
+
     <br><br><br>
 
-    <div class="container-fluid rodape">
-        <div class="row">
-            <div class="col-12  text-center">
-                <i class="mdi mdi-facebook mdi-24px"></i> Giovana Mogentale
-                <i class="mdi mdi-alpha-g-circle mdi-24pxe"></i> giovanamogentale@gmail.com
-                <i class="mdi mdi-cellphone-android mdi-24px"></i> (14) 993374612
-            </div>
 
+    <!-- Conteúdo do site -->
+    <div class="container mt-3">
+        <div class="row">
+            <div class="col-md-8 col-12">
+                <h5 class="border-bottom border-white text-white text-span ml-2 mt-2">Psicologia educacional</h5>
+                <img src="img/aprendizado.jpg" alt="Psicologia educacional" class="img-fluid">
+                <h1 class="text-center text-white mt-n5">
+                    <a href="" class="text-white">Teorias da aprendizagem</a>
+                </h1>
+            </div>
+            <div class="col-md-4 col-12">
+                <h6 class="border-bottom border-white text-white text-span ml-2 mt-2">Psicologia clínica</h6>
+                <img class="img-fluid" src="img/psicologa.jpg" alt="Psicologia clínica">
+                <h3 class="text-center text-white mt-n5">Quando buscar um psicólogo?</h3>
+
+                <h6 class="border-bottom border-white text-white text-span ml-2 mt-4">Psicologia</h6>
+                <img class="img-fluid mt-3" src="img/ansiedade.jpg" alt="Psicologia">
+                <h3 class="text-center text-white mt-n5">Ansiedade: sintomas físicos e psicológicos</h3>
+            </div>
         </div>
 
+        <!-- Conteúdos do site (secundários) -->
+        <div class="row mt-3">
+            <div class="col-md-9 col-12 text-justify">
+                Lorem ipsum dolor sit, amet consectetur adipisicing elit. Dignissimos, nam at. Soluta ea perspiciatis illo explicabo magnam, fugit possimus esse deserunt dolorum, accusamus officia voluptas ipsa facere provident maxime laborum. Nesciunt cupiditate quibusdam
+                eaque incidunt quod voluptatibus minus ullam pariatur corporis earum reprehenderit consequuntur tempore similique, quia voluptatum iure dolorum placeat amet cum architecto animi dolorem molestias quasi? Sunt, inventore. Repellendus numquam
+                consequatur similique at quos deleniti ad aliquid, suscipit obcaecati nam fugit molestiae libero atque dolorem vel sapiente. Quisquam, quam. Repellendus sapiente vel delectus sit quas tempora earum atque? Suscipit ducimus, cumque quibusdam
+                omnis animi numquam totam odio dolores voluptate ad quasi doloremque, praesentium nam minus? Ex, voluptatibus consequatur recusandae officiis quam iste cupiditate, a ullam, voluptate repellat labore. Odit tenetur nam perferendis quaerat
+                asperiores laboriosam molestias eos eaque quam quia voluptatum consectetur, magnam expedita rerum repudiandae incidunt praesentium laborum nemo, ea excepturi non culpa omnis modi dolore. Est.
+            </div>
+            <div class="col-md-3 col-12">
+                <div id="cont_371c4b9623f711164226b7b71d78eb78">
+                    <script type="text/javascript" async src="https://www.tempo.com/wid_loader/371c4b9623f711164226b7b71d78eb78"></script>
+                </div>
+            </div>
+        </div>
     </div>
+    <!-- Fim do conteúdo do nosso site -->
+
+    <!-- Criando um footer -->
+    <div class="container-fluid bg-footer mt-5">
+        <div class="row">
+            <div class="offset-md-2 col-md-3 col-12">
+                <p class="text-white">
+                    Todos os direitos reservados.
+                    <br>Giovana Mogentale
+                </p>
+            </div>
+            <div class="col-md-3 col-12 text-white">
+                <p>Mapa do site</p>
+                <ul>
+                    <li><b>Home</b></li>
+                    <li>Quem Somos</li>
+                    <li>Cursos</li>
+                    <li>
+                        <a href="faleConosco.html"></a>Fale Conosco</a>
+                    </li>
+                </ul>
+            </div>
+            <div class="col-md-3 col-12 text-white">
+                <i class="mdi mdi-facebook mdi-24px"></i>/giovanamogentaledasilva <br>
+                <i class="mdi mdi-instagram mdi-24px"></i>/giovanamogentale <br>
+                <i class="mdi mdi-whatsapp mdi-24px"></i> (14) 96332-1961 <br>
+                <i class="mdi mdi-email mdi-24px"></i> giovana.silva247@etec.sp.gov.br
+            </div>
+        </div>
+    </div>
+
+
+
+
+
+
+
+
 
 
 
