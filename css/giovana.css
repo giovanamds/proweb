@@ -6,8 +6,8 @@ body {
 }
 
 .text-title {
-    font-family: 'akronim', cursive;
-    font-size: 8em;
+    font-family: 'Kaufmann BT', cursive;
+    font-size: 5em;
     color: #2c3e50;
 }
 
@@ -17,18 +17,15 @@ body {
     color: #2c3e50;
 }
 
-.bg-title {
+.bg-imagem-fundo {
     /*background-image: linear-gradient(to bottom right, #6c5ce7, #81ecec);*/
     background: url(../img/psic.jpg) center center no-repeat;
     background-size: cover;
 }
 
-.menu {
+.bg-nav {
     background-color: #cf6a87;
-}
-
-.mdi {
-    color: aliceblue;
+    margin-top: -4rem;
 }
 
 .bg-footer {
