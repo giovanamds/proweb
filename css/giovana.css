@@ -1,7 +1,7 @@
 @import url('https://fonts.googleaplis.com/css?family=Akronim&display=swap');
 @import url('https://fonts.googleapis.com/css?family=Akronim|Raleway&display=swap');
 body {
-    font-family: 'Releway', sans-serif;
+    font-family: 'Raleway', sans-serif;
     font-size: 1.2em;
 }
 
@@ -30,4 +30,29 @@ body {
 
 .bg-footer {
     background-color: #cf6a87;
+}
+
+.bg-sobre {
+    background: url();
+    background-size: cover;
+    background-position: center center;
+}
+
+.img-banner {
+    height: 30rem;
+    min-height: 30rem;
+    max-height: 30rem;
+    object-fit: cover;
+}
+
+.img-card {
+    height: 30rem;
+    min-height: 10rem;
+    max-height: 10rem;
+    object-fit: cover;
+}
+
+.form-control:focus {
+    border-color: #cf6a87;
+    box-shadow: 0 0 0 0.2rem rgba(146, 28, 120, 0.25);
 }
