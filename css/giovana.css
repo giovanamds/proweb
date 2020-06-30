@@ -19,17 +19,17 @@ body {
 
 .bg-imagem-fundo {
     /*background-image: linear-gradient(to bottom right, #6c5ce7, #81ecec);*/
-    background: url(../img/psic.jpg) center center no-repeat;
+    background: url(../img/fundo.jpg) center center no-repeat;
     background-size: cover;
 }
 
 .bg-nav {
-    background-color: #cf6a87;
+    background-color: #f78fb3;
     margin-top: -4rem;
 }
 
 .bg-footer {
-    background-color: #cf6a87;
+    background-color: #f78fb3;
 }
 
 .bg-sobre {
@@ -53,6 +53,15 @@ body {
 }
 
 .form-control:focus {
-    border-color: #cf6a87;
-    box-shadow: 0 0 0 0.2rem rgba(146, 28, 120, 0.25);
+    border-color: #0fb9b1;
+    box-shadow: 0 0 0 0.2rem rgba(55, 169, 173, 0.25);
+}
+
+.bg-titulo-curso {
+    color: #2c3e50;
+}
+
+.bg-texto-frase {
+    font-family: 'Kaufmann BT', cursive;
+    font-size: 1em;
 }
